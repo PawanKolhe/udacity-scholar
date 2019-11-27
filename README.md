@@ -1,4 +1,4 @@
-# udacity-scholar repo [ LOCAL -> FORK -> ORIGINAL ]
+# REMEMBER [ LOCAL -> FORK -> ORIGINAL ]
 Please read the following instructions on how to create pull request to this repo
 
 **Step 1. Fork Repository**
@@ -56,10 +56,12 @@ $ git push origin master
 ```
 $ git checkout -b iam-udacity-scholar
 Switched to a new branch 'iam-udacity-scholar'
+
 malik@goobunta:~/git/udacity-scholar$ git branch
 * iam-udacity-scholar
   master
 ```  
+
 **Step 7. Create file and commit the change to your local branch**
 
 ```
@@ -70,5 +72,13 @@ $ git add abid.udacity && git commit -m "added file"
 **Step 8. Merge your local branch to your local master**
 
 ```
-$ git checkout master && git merge iam-udacity-scholar && git branch -d iam-udacity-scholar
+$ git checkout master && git merge iam-udacity-scholar
 ```
+
+**Step 9. Merge origin master**
+
+```
+$ git push origin master
+```
+
+**Step 10. Create PULL REQUEST from your FORK (GitHub account)
