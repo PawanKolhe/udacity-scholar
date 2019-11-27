@@ -81,4 +81,5 @@ $ git checkout master && git merge iam-udacity-scholar
 $ git push origin master
 ```
 
-**Step 10. Create PULL REQUEST from your FORK (GitHub account)
+**Step 10. Create PULL REQUEST from your FORK (GitHub account)**
+:raised_hands:
