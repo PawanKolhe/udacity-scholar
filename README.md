@@ -89,17 +89,5 @@ $ git add abid.udacity && git commit -m "added file"
 $ git push origin iam-udacity-scholar
 ```
 
-**Step 9. PUll this branch from origin master**
-
-```
-$ git pull origin master
-```
-
-At this point, your terminal should look like this:
-
-```
-
-```
-
-**Step 10. Create PULL REQUEST from your FORK (GitHub account)**
-:raised_hands:
+**Step 9. Create PULL REQUEST from your FORK (GitHub account)**
+ :heart_eyes:
