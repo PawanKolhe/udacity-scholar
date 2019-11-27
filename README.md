@@ -1,4 +1,4 @@
-# REMEMBER [ LOCAL -> FORK -> ORIGINAL ]
+# REMEMBER [ LOCAL -> FORK(origin) -> ORIGINAL(upstream) ]
 Please read the following instructions on how to create pull request to this repo
 
 **Step 1. Fork Repository**
@@ -50,6 +50,20 @@ $ git pull upstream master
 $ git push origin master
 ```
 
+At this point pulling from upstream or pushing to origin master should make no change at all
+
+```
+$ git pull upstream master
+From https://github.com/clouddevopsdba/udacity-scholar
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> upstream/master
+Already up to date.
+
+$ git push origin master
+Username for 'https://github.com': abidmunirmalik
+Password for 'https://abidmunirmalik@github.com':
+Everything up-to-date
+```
 
 **Step 6. Checkout your own branch and create your file for PR (Pull Request)**
 
@@ -75,10 +89,19 @@ $ git add abid.udacity && git commit -m "added file"
 $ git checkout master && git merge iam-udacity-scholar
 ```
 
-**Step 9. Merge origin master**
+**Step 9. Push this branch to origin master**
 
 ```
 $ git push origin master
+```
+
+At this point, your terminal should look like this:
+
+```
+$ git log --oneline --graph --all
+* bd7b323 (HEAD -> master, origin/master, origin/HEAD, iam-udacity-scholar) added file
+* 9c13d88 (upstream/master) Update README.md
+* 1742961 Update README.md
 ```
 
 **Step 10. Create PULL REQUEST from your FORK (GitHub account)**
