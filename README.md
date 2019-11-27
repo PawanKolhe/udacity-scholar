@@ -59,3 +59,8 @@ $ touch abid.udacity
 $ git add abid.udacity && git commit -m "added file"
 ```
 
+**Step 8. Merge your local branch to your local master**
+
+```
+$ git checkout master && git merge iam-udacity-scholar && git branch -d iam-udacity-scholar
+```
