@@ -1,4 +1,4 @@
-# REMEMBER [ LOCAL -> FORK(origin) -> ORIGINAL(upstream) ]
+## REMEMBER [ LOCAL -> FORK(origin) -> ORIGINAL(upstream) ]
 Please read the following instructions on how to create pull request to this repo
 
 **Step 1. Fork Repository**
@@ -83,25 +83,22 @@ $ touch abid.udacity
 $ git add abid.udacity && git commit -m "added file"
 ```
 
-**Step 8. Merge your local branch to your local master**
+**Step 8. Push your local branch to your origin master**
 
 ```
-$ git checkout master && git merge iam-udacity-scholar
+$ git push origin iam-udacity-scholar
 ```
 
-**Step 9. Push this branch to origin master**
+**Step 9. PUll this branch from origin master**
 
 ```
-$ git push origin master
+$ git pull origin master
 ```
 
 At this point, your terminal should look like this:
 
 ```
-$ git log --oneline --graph --all
-* bd7b323 (HEAD -> master, origin/master, origin/HEAD, iam-udacity-scholar) added file
-* 9c13d88 (upstream/master) Update README.md
-* 1742961 Update README.md
+
 ```
 
 **Step 10. Create PULL REQUEST from your FORK (GitHub account)**
